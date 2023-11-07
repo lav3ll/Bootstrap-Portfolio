@@ -203,6 +203,10 @@ body {
   border-color: var(--primary) !important;
 }
 
+.btn:hover {
+  box-shadow: 4px 4px rgb(0, 0, 255, 0.3) !important;
+}
+
 /*Media Queries*/
 
 @media (min-width: 576px) {
@@ -219,5 +223,11 @@ body {
   .project-links a {
     font-size: 0.7rem;
     padding: 2px 2px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-title {
+    font-size: 1.5rem;
   }
 }
