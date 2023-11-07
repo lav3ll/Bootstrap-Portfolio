@@ -136,3 +136,27 @@ body {
 }
 
 /* End of Work section styles */
+.contact-method {
+  background-color: var(--primary);
+}
+
+.icons-container p {
+  color: var(--secondary);
+}
+
+.icons-container a {
+  color: green;
+}
+
+.sub-heading {
+  color: var(--primary);
+}
+
+.icons-container a:hover {
+  color: var(--secondary-text);
+}
+
+/* Hover effect for contact methods */
+.contact-method:hover {
+  background-color: var(--base-color);
+}
