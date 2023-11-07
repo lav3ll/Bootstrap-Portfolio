@@ -206,6 +206,12 @@ body {
 
 /*Media Queries*/
 
+@media (min-width: 992px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
 @media (min-width: 576px) {
   .card-title {
     font-size: 1rem;
@@ -214,6 +220,10 @@ body {
   .card-text {
     font-size: 0.6rem !important;
   }
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -221,10 +231,10 @@ body {
     font-size: 0.7rem;
     padding: 2px 2px;
   }
-}
 
-@media (min-width: 992px) {
-  .card-title {
-    font-size: 1.5rem;
+  h1 {
+    font-size: 2rem !important;
   }
 }
+
+/*Media Queries end*/
