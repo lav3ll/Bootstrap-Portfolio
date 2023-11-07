@@ -177,6 +177,12 @@ body {
   color: var(--primary);
 }
 
+.card-text-h5 {
+  color: var(--secondary-text) !important;
+  font-size: 0.8rem !important;
+  margin-top: 5px !important;
+}
+
 .icons-container a:hover {
   color: var(--secondary-text);
 }
@@ -191,4 +197,23 @@ body {
 #psr2,
 #psr3 {
   border-color: var(--primary) !important;
+}
+
+/*Media Queries*/
+
+@media (min-width: 576px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.6rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-links a {
+    font-size: 0.7rem;
+    padding: 2px 2px;
+  }
 }
