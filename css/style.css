@@ -113,6 +113,10 @@ body {
   transform: scale(0.9);
 }
 
+.skill .card-body .card-text {
+  font-size: 1rem !important;
+}
+
 #work h4 {
   color: var(--secondary) !important;
 }
