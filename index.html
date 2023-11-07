@@ -149,10 +149,12 @@
     <!--About me-->
     <div class="container-fluid content px-5 mt-5">
       <section class="row page-section" id="about">
-        <aside class="page-section-left col-2">
-          <h3 class="sectionHeading">About Me</h3>
+        <aside class="page-section-left col-sm-4 col-md-2">
+          <h3 class="sectionHeading fw-bold">About Me</h3>
         </aside>
-        <article class="page-section-right col-10 border-start border-5 pe-2">
+        <article
+          class="page-section-right col-sm-8 col-md-10 border-start border-3 pe-2"
+        >
           <p class="about-txt">
             Hi, I'm Lavell Francis, a self-taught software developer. I embarked
             on my journey into the world of coding during the challenging times
@@ -182,6 +184,106 @@
         </article>
       </section>
     </div>
+    <!--End of about me-->
+
+    <!-- portfolio container -->
+    <div class="container-fluid content px-5 mt-5">
+      <section class="row page-section" id="work">
+        <aside class="page-section-left col-sm-4 col-md-2">
+          <h4 class="sub-heading fw-bold">Work</h4>
+        </aside>
+        <article class="page-section-right col-sm-8 col-md-10">
+          <figure class="projectContainer" id="top-proj">
+            <img
+              src="./images/portfolio1.png"
+              alt="image of the home page of a manga website"
+              class="project-big w-75 h-75"
+            />
+            <div class="project-txt">
+              <h3 class="project-name">Elite Scans</h3>
+              <p>JS/CSS</p>
+              <nav class="project-links" #project-links-big>
+                <a href="https://github.com/lav3ll/Manga-Website">GitHub</a>
+                <a href="https://elite-scans.netlify.app/">Live Demo</a>
+              </nav>
+            </div>
+          </figure>
+
+          <section class="row sm-projContainer" id="mid-proj">
+            <figure class="imgContainer col-6">
+              <img
+                src="./images/portfolio2.png"
+                alt="image of a home page of a movie website"
+                class="project w-75 h-75"
+              />
+              <div class="project-txt">
+                <h3 class="project-name">Prime Movies</h3>
+                <p>JS/CSS</p>
+                <nav class="project-links">
+                  <a href="https://github.com/lav3ll/Movie-Website">GitHub</a>
+                  <a href="https://lav3ll-prime-movies.netlify.app/"
+                    >Live Demo</a
+                  >
+                </nav>
+              </div>
+            </figure>
+            <figure class="imgContainer col-6">
+              <img
+                src="./images/portfolio3.png"
+                alt="image of a home page of a ski resort weather site"
+                class="project w-75 h-75"
+              />
+              <div class="project-txt">
+                <h3 class="project-name">Ski Resort Forecast</h3>
+                <p>React/JS/CSS</p>
+                <nav class="project-links">
+                  <a href="https://github.com/lav3ll/ski-resort-weather"
+                    >GitHub</a
+                  >
+                  <a href="https://ski-resort-forecast.netlify.app/"
+                    >Live Demo</a
+                  >
+                </nav>
+              </div>
+            </figure>
+
+            <figure class="imgContainer col-6">
+              <img
+                src="./images/portfolio4.png"
+                alt="image of a home page of a banking website"
+                class="project w-75 h-75"
+              />
+              <div class="project-txt">
+                <h3 class="project-name">Credify</h3>
+                <p>JS/CSS</p>
+                <nav class="project-links">
+                  <a href="https://github.com/lav3ll/Banking">GitHub</a>
+                  <a href="https://credifyy.netlify.app/">Live Demo</a>
+                </nav>
+              </div>
+            </figure>
+
+            <figure class="imgContainer col-6">
+              <img
+                src="./images/portfolio5.png"
+                alt="image of a home page of a e-commerce site"
+                class="project w-75 h-75"
+              />
+              <div class="project-txt">
+                <h3 class="project-name">E-commerce</h3>
+                <p>React/JS/CSS</p>
+                <nav class="project-links">
+                  <a href="https://github.com/lav3ll/e-commerce">GitHub</a>
+                  <a href="https://github.com/lav3ll/e-commerce">Live Demo</a>
+                  <!--Project not live yet-->
+                </nav>
+              </div>
+            </figure>
+          </section>
+        </article>
+      </section>
+    </div>
+    <!-- End of portfolio container -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
