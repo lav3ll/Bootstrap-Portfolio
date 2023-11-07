@@ -35,6 +35,7 @@ No installation needed
 **Explore Resources:**
 https://lav3ll.github.io/lavell-portfolio/
 https://ionic.io/ionicons [Free Icons - I used this for my contact me section]
+https://worldvectorlogo.com/
 https://coolors.co/ [Helped me with picking a colour scheme for my portfolio]
 https://fonts.google.com/ [Main font for most of the text on site]
 https://tinyjpg.com/
