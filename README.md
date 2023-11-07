@@ -12,7 +12,7 @@ No installation needed
 
 [Click here to see live copy of the site](https://lav3ll.github.io/bootstrap-portfolio/)
 
-[Link to lavell-portfolio](https://github.com/lav3ll/bootstrap-portfolio)
+[Link to lavell-portfolio](https://lav3ll.github.io/bootstrap-portfolio/)
 
 ## Usage
 
@@ -38,7 +38,7 @@ https://ionic.io/ionicons [Free Icons - I used this for my contact me section]
 https://worldvectorlogo.com/ [Icons for skills section]
 https://coolors.co/ [Helped me with picking a colour scheme for my portfolio]
 https://fonts.google.com/ [Main font for most of the text on site]
-https://tinyjpg.com/
+https://tinyjpg.com/ [Used to compress my images down]
 
 ## Credits
 
