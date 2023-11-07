@@ -16,13 +16,13 @@ No installation needed
 
 ## Usage
 
-![Screenhot of the front page of my portfolio]()
+![Screenhot of the front page of my portfolio](./images/sc1.png)
 
 - Each button on the top of the page leads to the relevant location on the site.
 
 * The Resume button will allow you to download a copy of my CV.
 
-![Screenhot of the front page of my portfolio]()
+![Screenhot of the front page of my portfolio](./images/sc2.png)
 
 - All icons can be clicked on to go to the link in the caption beneath it.
 
