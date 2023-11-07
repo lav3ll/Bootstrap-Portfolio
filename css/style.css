@@ -17,7 +17,7 @@ body {
   line-height: 1.5;
   color: var(--primary) !important;
   font-family: "Montserrat", sans-serif !important;
-  background-color: #f5f5f5;
+  background-color: var(--base-color) !important;
 }
 
 /* General */
@@ -92,3 +92,45 @@ body {
 }
 
 /*End of jumbotron*/
+
+#work h4 {
+  color: var(--secondary) !important;
+}
+
+.btn {
+  background-color: var(--secondary) !important;
+  color: var(--primary) !important;
+}
+
+/* Work section styles */
+.project {
+  border: 5px solid var(--primary) !important;
+}
+
+/* Hover effect for project items */
+.project:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.7s linear;
+}
+
+/* Larger project image */
+.project-big {
+  border: 5px solid var(--primary) !important;
+  background-color: var(--white) !important;
+}
+
+.project-name {
+  color: var(--secondary) !important;
+}
+
+.project-txt p {
+  color: var(--secondary-text) !important;
+}
+
+.project-txt {
+  padding: 0 5px;
+  background-color: var(--primary);
+  font-size: 20px;
+  color: var(--secondary);
+}
