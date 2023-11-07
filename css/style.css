@@ -64,6 +64,8 @@ body {
   color: var(--secondary) !important;
 }
 
+/*End of navigation*/
+
 /*Jumbotron*/
 #banner-h1 {
   color: var(--secondary) !important;
@@ -92,6 +94,24 @@ body {
 }
 
 /*End of jumbotron*/
+
+/*Skills*/
+.skill {
+  background-color: var(--primary) !important;
+}
+
+.skill .card-title {
+  color: var(--secondary);
+}
+
+.skill .card-text {
+  color: var(--secondary-text);
+}
+
+.skill:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
 
 #work h4 {
   color: var(--secondary) !important;
@@ -136,6 +156,11 @@ body {
 }
 
 /* End of Work section styles */
+
+#contact {
+  color: var(--secondary);
+}
+
 .contact-method {
   background-color: var(--primary);
 }
