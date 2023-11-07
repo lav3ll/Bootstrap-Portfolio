@@ -184,4 +184,11 @@ body {
 /* Hover effect for contact methods */
 .contact-method:hover {
   background-color: var(--base-color);
+  border: 3px solid var(--primary);
+}
+
+#psr1,
+#psr2,
+#psr3 {
+  border-color: var(--primary) !important;
 }
