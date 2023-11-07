@@ -195,16 +195,13 @@ body {
 .contact-method:hover {
   background-color: var(--base-color);
   border: 3px solid var(--primary);
+  box-shadow: 4px 4px rgb(0, 0, 255, 0.3) !important;
 }
 
 #psr1,
 #psr2,
 #psr3 {
   border-color: var(--primary) !important;
-}
-
-.btn:hover {
-  box-shadow: 4px 4px rgb(0, 0, 255, 0.3) !important;
 }
 
 /*Media Queries*/
