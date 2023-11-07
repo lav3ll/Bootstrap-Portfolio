@@ -187,13 +187,17 @@
     <!--End of about me-->
 
     <!-- portfolio container -->
+
     <div class="container-fluid content px-5 mt-5">
       <section class="row page-section" id="work">
         <aside class="page-section-left col-sm-4 col-md-2">
           <h4 class="sub-heading fw-bold">Work</h4>
         </aside>
-        <article class="page-section-right col-sm-8 col-md-10">
-          <figure class="projectContainer" id="top-proj">
+        <article
+          class="page-section-right border-start border-3 col-sm-8 col-md-10"
+        >
+          <!--Portfolio card big -->
+          <figure class="projectContainer border-5" id="top-proj">
             <img
               src="./images/portfolio1.png"
               alt="image of the home page of a manga website"
@@ -208,77 +212,112 @@
               </nav>
             </div>
           </figure>
+          <!--Portfolio card big end-->
 
           <section class="row sm-projContainer" id="mid-proj">
-            <figure class="imgContainer col-6">
+            <!--Portfolio card 1 -->
+            <figure class="imgContainer card col-6">
               <img
                 src="./images/portfolio2.png"
                 alt="image of a home page of a movie website"
-                class="project w-75 h-75"
+                class="card-img-top project w-100 h-100"
               />
-              <div class="project-txt">
-                <h3 class="project-name">Prime Movies</h3>
-                <p>JS/CSS</p>
+              <div class="card-body project-txt">
+                <h3 class="card-title project-name">Prime Movies</h3>
+                <p class="card-text">JS/CSS</p>
                 <nav class="project-links">
-                  <a href="https://github.com/lav3ll/Movie-Website">GitHub</a>
-                  <a href="https://lav3ll-prime-movies.netlify.app/"
+                  <a
+                    href="https://github.com/lav3ll/Movie-Website"
+                    class="btn btn-primary"
+                    >GitHub</a
+                  >
+                  <a
+                    href="https://lav3ll-prime-movies.netlify.app/"
+                    class="btn btn-primary"
                     >Live Demo</a
                   >
                 </nav>
               </div>
             </figure>
-            <figure class="imgContainer col-6">
+            <!--Portfolio card 1 end-->
+            <!--Portfolio card 2 -->
+            <figure class="imgContainer card col-6">
               <img
                 src="./images/portfolio3.png"
                 alt="image of a home page of a ski resort weather site"
-                class="project w-75 h-75"
+                class="card-img-top project w-100 h-10"
               />
-              <div class="project-txt">
-                <h3 class="project-name">Ski Resort Forecast</h3>
+              <div class="card-body project-txt">
+                <h3 class="card-title project-name">Ski Resort Forecast</h3>
                 <p>React/JS/CSS</p>
                 <nav class="project-links">
-                  <a href="https://github.com/lav3ll/ski-resort-weather"
+                  <a
+                    href="https://github.com/lav3ll/ski-resort-weather"
+                    class="btn btn-primary"
                     >GitHub</a
                   >
-                  <a href="https://ski-resort-forecast.netlify.app/"
+                  <a
+                    href="https://ski-resort-forecast.netlify.app/"
+                    class="btn btn-primary"
                     >Live Demo</a
                   >
                 </nav>
               </div>
             </figure>
+            <!--Portfolio card 2 end-->
 
-            <figure class="imgContainer col-6">
+            <!--Portfolio card 3 -->
+            <figure class="imgContainer card col-6">
               <img
                 src="./images/portfolio4.png"
                 alt="image of a home page of a banking website"
-                class="project w-75 h-75"
+                class="card-img-top project w-100 h-10"
               />
               <div class="project-txt">
-                <h3 class="project-name">Credify</h3>
+                <h3 class="card-title project-name">Credify</h3>
                 <p>JS/CSS</p>
                 <nav class="project-links">
-                  <a href="https://github.com/lav3ll/Banking">GitHub</a>
-                  <a href="https://credifyy.netlify.app/">Live Demo</a>
+                  <a
+                    href="https://github.com/lav3ll/Banking"
+                    class="btn btn-primary"
+                    >GitHub</a
+                  >
+                  <a
+                    href="https://credifyy.netlify.app/"
+                    class="btn btn-primary"
+                    >Live Demo</a
+                  >
                 </nav>
               </div>
             </figure>
+            <!--Portfolio card 3 end-->
 
-            <figure class="imgContainer col-6">
+            <!--Portfolio card 4 -->
+            <figure class="imgContainer card col-6">
               <img
                 src="./images/portfolio5.png"
                 alt="image of a home page of a e-commerce site"
-                class="project w-75 h-75"
+                class="card-img-top project w-100 h-10"
               />
               <div class="project-txt">
-                <h3 class="project-name">E-commerce</h3>
+                <h3 class="card-title project-name">E-commerce</h3>
                 <p>React/JS/CSS</p>
                 <nav class="project-links">
-                  <a href="https://github.com/lav3ll/e-commerce">GitHub</a>
-                  <a href="https://github.com/lav3ll/e-commerce">Live Demo</a>
+                  <a
+                    href="https://github.com/lav3ll/e-commerce"
+                    class="btn btn-primary"
+                    >GitHub</a
+                  >
+                  <a
+                    href="https://github.com/lav3ll/e-commerce"
+                    class="btn btn-primary"
+                    >Live Demo</a
+                  >
                   <!--Project not live yet-->
                 </nav>
               </div>
             </figure>
+            <!--Portfolio card 4 end-->
           </section>
         </article>
       </section>
