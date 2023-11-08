@@ -12,7 +12,7 @@ No installation needed
 
 [Click here to see live copy of the site](https://lav3ll.github.io/bootstrap-portfolio/)
 
-[Link to lavell-portfolio](https://lav3ll.github.io/bootstrap-portfolio/)
+[Link to bootstrap-portfolio](https://lav3ll.github.io/bootstrap-portfolio/)
 
 ## Usage
 
