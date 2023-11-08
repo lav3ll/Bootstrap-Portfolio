@@ -89,7 +89,7 @@ body {
 }
 
 #jumboBackground {
-  background-image: url("/images/02-hero-bg.jpg") !important ;
+  background-image: url("../images/02-hero-bg.jpg") !important ;
   height: 200px;
 }
 
